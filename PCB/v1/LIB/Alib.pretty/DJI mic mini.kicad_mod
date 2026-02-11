@@ -1,0 +1,128 @@
+(footprint "DJI mic mini"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -12.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cc189907-cc51-4028-b136-a5ce99d7ddb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DJI mic mini"
+		(at 0 -11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3903b078-2e90-432b-9947-faee8f5e5d9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "250f6540-4d84-44dd-a66b-daac93683ff6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e43ea46-1613-4def-be0e-58bb9805b3ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.3 3.7875)
+		(end 1.3 5.1475)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "8e7af410-a58f-408c-b7d9-88e3ba89c466")
+	)
+	(fp_rect
+		(start -6.5 -2.81)
+		(end 6.5 8.69)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.3")
+		(uuid "78940748-f894-480e-9513-d9fdaa567460")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a38ad286-ca77-4829-a616-40c08b9f0a79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 1.89 0)
+		(size 1.85 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "87d568e1-4f8d-4473-8ea1-308a379a5be7")
+	)
+	(pad "2" smd circle
+		(at 1.89 2.325)
+		(size 1.85 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80979548-6938-4250-b8d7-9945c7930855")
+	)
+	(pad "3" smd circle
+		(at 1.89 6.61)
+		(size 1.85 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ac150a90-425c-4106-9544-5d3aeb9e14c4")
+	)
+	(pad "4" smd circle
+		(at -1.89 0)
+		(size 1.85 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49c14c91-d10c-44ee-b8f5-0da0107dbdfe")
+	)
+	(pad "5" smd circle
+		(at -1.89 2.325)
+		(size 1.85 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dc3d3623-b838-412b-a14b-f8faac01d5ca")
+	)
+	(pad "6" smd circle
+		(at -1.89 6.61)
+		(size 1.85 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dfbcabe2-0326-4044-a764-72c2ea9f1f74")
+	)
+	(embedded_fonts no)
+)

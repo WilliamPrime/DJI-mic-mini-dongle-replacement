@@ -1,0 +1,106 @@
+(footprint "Terminal soldering thingy"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7a7b4df-f29d-47f3-96c7-6538926833c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Terminal soldering thingy"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "61ee4a26-b5db-4b7c-866a-d401b1b132f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a8ffbf2-c35e-48d9-85c6-eba0bdcc8044")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48359c1b-24aa-4b83-8c42-0e48bcbc5164")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d5b4bb0-2a2e-45dd-95a2-bd78ce0fa49c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.6 6.75)
+		(size 2.6 1.5)
+		(drill oval 1.8 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "1515dd9f-5bba-4b8d-b42b-cba9937eef1a")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.6 14.15)
+		(size 2.6 1.5)
+		(drill oval 1.8 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "c131ce6f-bc15-44cb-bebb-71d3e26cb8f0")
+	)
+	(pad "1" thru_hole roundrect
+		(at 2.6 6.75)
+		(size 2.6 1.5)
+		(drill oval 1.8 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "53ed4d28-5b07-48fe-a0bc-a687c48ee6e1")
+	)
+	(pad "1" thru_hole roundrect
+		(at 2.6 14.15)
+		(size 2.6 1.5)
+		(drill oval 1.8 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "d4332524-a266-45dc-bb16-56b5d724f94b")
+	)
+	(embedded_fonts no)
+)

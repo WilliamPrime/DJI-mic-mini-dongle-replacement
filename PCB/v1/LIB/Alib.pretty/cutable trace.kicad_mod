@@ -1,0 +1,118 @@
+(footprint "cutable trace"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0cecaa28-f8ad-4466-8600-20d57e815a77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "cutable trace"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8578e57-6fc3-4e1a-b9b0-6c58b021a889")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c229302-a7f1-4c4f-b7e5-26db4142841d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6852985d-1f77-459d-b674-9e8fd6350379")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 1.2)
+		(end 0 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "47acb8e6-b75c-4342-beba-47d5c53c022d")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -1) (xy 0 0) (xy 0.5 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "4fcaadd0-3e95-46e1-abfc-c196bd24c771")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 1) (xy 0 0) (xy -0.5 1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "c960b3b1-44da-4159-8c3b-466251495d17")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5d9af704-8d42-493f-b654-3610a9ff2a50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -1.2)
+		(size 1.2 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "0f4fbb66-9293-4a59-91d9-b3dbdf451588")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.2)
+		(size 1.2 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "742593f4-0e10-4829-8572-9214e1d0d8b5")
+	)
+	(embedded_fonts no)
+)
