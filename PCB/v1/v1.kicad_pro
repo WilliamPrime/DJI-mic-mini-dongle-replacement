@@ -531,7 +531,7 @@
       "plot": "../../prod/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "v1.1.step",
+      "step": "v1.2.step",
       "svg": "",
       "vrml": ""
     },
