@@ -49,7 +49,7 @@ All you should need to make one is
 - a 4mm m3 bolt
 - the components
 
-First thing you should do is trim the legs of the terminal
+First thing you should do is trim the legs of the terminal,
 you should cut on the red lines
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/0cedca26-544c-4cdc-b272-ac313a79d1a2" />
 
