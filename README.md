@@ -29,9 +29,9 @@ And i think ive done just that.
 |FIELD1    |cost    |Notes          |
 |----------|--------|---------------|
 |PCBS      | $5.74  |1.2mm thick PCB|
-|Components| $11.73 |               |
+|Components| $11.08 |               |
 |m3 bolt   | $2.00  |wafer head, 4mm|
-|total cost| $18.53 |               |
+|total cost| $18.82 |               |
 
 A 3d printed case is an optional, but heavily encouraged option.
 The 3d printed case helps to support the USB-C port and stop it bending.
