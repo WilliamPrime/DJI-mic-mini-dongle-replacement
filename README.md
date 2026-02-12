@@ -53,7 +53,9 @@ First thing you should do is trim the legs of the terminal,
 you should cut on the red lines
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/0cedca26-544c-4cdc-b272-ac313a79d1a2" />
 
+
 after trimming it should look like this
+
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/c0305f8c-d02d-4783-8cd2-cbbba8091c27" />
 
 next step is to solder the USB connector
