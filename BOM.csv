@@ -1,13 +1,13 @@
-﻿,cost($),shipping+tax etc($),Notes
-PCBS,3.30,2.46,"Lead free HASL 1.2mm thickness , JLC PCB"
-Components,5.74,5.75,"LCSC, MOQ+handingly fees make this a bit higher than I would perhaps expect"
-,,,
-total cost, $17.25 ,,
-,,,
-,,,
-,,,
-,,,
-Components from LCSC,,,
-LCSC #,Price,Quant,Notes
-C19724534,0.09,5,MOQ of 5
-C2988371,0.386,5,MOQ of 5
+,cost($),shipping+tax etc($),link,Notes
+PCBS,3.3,2.46,jlcpcb.com,"Lead free HASL 1.2mm thickness , JLC PCB"
+Components,5.74,5.75,,"LCSC, MOQ+handingly fees make this a bit higher than I would perhaps expect"
+,,,,
+total cost, $17.25 ,,,
+,,,,
+,,,,
+,,,,
+,,,,
+Components from LCSC,,,,
+LCSC #,Price,Quant,,Notes
+C19724534,0.09,5,lcsc.com/product-detail/C19724534.html?s_z=n_C19724534,MOQ of 5
+C2988371,0.386,5,lcsc.com/product-detail/C2988371.html?s_z=n_C2988371,MOQ of 5
